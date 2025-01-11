@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    color: #ffffff;
+    line-height: 1.6;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.senna-name {
+    color: #f1c40f; 
+}
+
+.colon {
+    color: #002776; 
+}
+
+.subtitle {
+    color: #05a841; 
+}
+
+.senna{
+    width: 100%;
+}
+
+h2 {
+    color: #f1c40f;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 20px;
+    font-size: 1.1em;
+}
+
+em {
+    color: #f1c40f;
+    font-style: italic;
+}
+
+h5{
+    color: #f1c40f;
+}
+
+a{
+    color: white;
+}

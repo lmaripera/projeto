@@ -1,0 +1,162 @@
+body {
+    
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+}
+
+h5{
+    color: red;
+}
+nav {
+    background-color: #181616;
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding: 0px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.menu-logo {
+    height: 110px; 
+    width: auto; 
+    margin-right: 15px;
+}
+
+nav ul {
+    list-style: none; 
+    margin: 0px;
+    padding: 0;
+    display: flex; 
+    gap:50px; 
+     margin-left: 150px;
+}
+nav ul li {
+    margin: 0px;
+    margin-left: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.imagem-geral{
+    width: 700px;
+    border-radius: 8px;
+    
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    margin-left: 150px;
+}
+
+.titulo-equipes {
+    padding: 20px 0;
+    background-color: #181616;
+}
+
+.apresentacao-equipes {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+
+.apresentacao-equipes p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 15px;
+    color: white;
+}
+
+.equipes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.equipe {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.equipe h2 {
+    margin-top: 0;
+    color: #e50914;
+    text-align: center;
+}
+
+.imagem-equipe {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.equipe p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.equipe ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.equipe ul li {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.equipe ul li::before {
+    content: "• ";
+    color: #e50914;
+}
+
+    .imagem-geral {
+        width: 90%; 
+        max-width: 600px;
+    }
+
+    .imagem-equipe {
+        display: block;
+        margin: 0 auto;
+        width: 90%; 
+        max-width: 500px; 
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    
+
+    .equipe {
+        padding: 15px;
+    }
+
